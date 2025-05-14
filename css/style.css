@@ -30,3 +30,22 @@ p {
   border-radius: 50%;
   margin-bottom: 20px;
 }
+
+nav {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  background-color: #f0f0f0;
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #007acc;
+}
